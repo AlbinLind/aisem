@@ -17,6 +17,8 @@ torch = {version = "^2.5.1", source = "pytorch_cuda"}
 torchvision = {version = "^0.20.1", source = "pytorch_cuda"}
 torchaudio = {version = "^2.5.1", source = "pytorch_cuda"}
 matplotlib = "^3.10.0"
+tensorboard = "^2.18.0"
+torch-tb-profiler = "^0.4.3"
 
 
 [[tool.poetry.source]]
