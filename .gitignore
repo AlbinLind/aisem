@@ -1,4 +1,5 @@
 .venv
 SemArt/
-*.pth
+model.pth
+model_trained.pth
 runs/
