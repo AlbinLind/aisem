@@ -1,5 +1,4 @@
-This version had:
-1. Model
+Neural net
 ```python
 class CNN(nn.Module):
     def __init__(self, output_dim: int):
@@ -16,22 +15,22 @@ class CNN(nn.Module):
             nn.ReLU(),
             nn.Linear(32, output_dim),
         )
-
-    def forward(self, x):
-        if len(x.shape) == 3:
-            x = x.unsqueeze(0)
-        x = self.resnet(x)
-        x = self.sequential(x)
-        return x
 ```
 
-Transform, no random
+Transform
 ```python
         self.transform = transforms.Compose(
             [
                 # Get the values from here: https://pytorch.org/vision/0.18/models/generated/torchvision.models.resnet50.html#torchvision.models.resnet50
                 transforms.Resize(232),
+                # Data augmentation, randomly crop the image and flip it horizontally
+                # only for the training set
+                transforms.RandomCrop(224)
+                if data_set == DataSetEnum.TRAIN
                 else transforms.CenterCrop(224),
+                transforms.RandomHorizontalFlip()
+                if data_set == DataSetEnum.TRAIN
+                else transforms.Lambda(lambda x: x),
                 transforms.ToTensor(),
                 transforms.Normalize(
                     mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]
