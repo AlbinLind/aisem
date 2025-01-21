@@ -1,0 +1,16 @@
+[project]
+name = "individual-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.12.*"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "langdetect>=1.0.9",
+    "matplotlib>=3.10.0",
+    "nltk>=3.9.1",
+    "numpy>=2.2.2",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "torch>=2.5.1",
+]

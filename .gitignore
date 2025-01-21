@@ -2,3 +2,4 @@
 SemArt/
 *.pth
 runs/
+*.tsv
