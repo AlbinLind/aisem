@@ -10,6 +10,7 @@ dependencies = [
     "huggingface-hub>=0.27.1",
     "ipykernel>=6.29.5",
     "ipywidgets>=8.1.5",
+    "kaggle>=1.6.17",
     "langdetect>=1.0.9",
     "matplotlib>=3.10.0",
     "nltk>=3.9.1",

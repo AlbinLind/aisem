@@ -1,0 +1,57 @@
+[{"stream_name":"stdout","time":4151.241801434,"data":"              precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":4151.242022451,"data":"\n"}
+,{"stream_name":"stdout","time":4151.242032157,"data":"           0       0.76      0.41      0.53     15091\n"}
+,{"stream_name":"stdout","time":4151.242036977,"data":"           1       0.68      0.61      0.64     61188\n"}
+,{"stream_name":"stdout","time":4151.242041531,"data":"           2       0.79      0.45      0.57     10201\n"}
+,{"stream_name":"stdout","time":4151.24204598,"data":"           3       0.57      0.18      0.27     19318\n"}
+,{"stream_name":"stdout","time":4151.242050413,"data":"           4       0.72      0.66      0.69     71863\n"}
+,{"stream_name":"stdout","time":4151.242054963,"data":"           5       0.60      0.34      0.44     37696\n"}
+,{"stream_name":"stdout","time":4151.242059331,"data":"           6       0.62      0.11      0.19      7171\n"}
+,{"stream_name":"stdout","time":4151.242063723,"data":"           7       0.94      0.95      0.95    129465\n"}
+,{"stream_name":"stdout","time":4151.242068131,"data":"           8       0.66      0.27      0.38     19576\n"}
+,{"stream_name":"stdout","time":4151.242072384,"data":"           9       0.59      0.02      0.04       882\n"}
+,{"stream_name":"stdout","time":4151.242076605,"data":"          10       0.83      0.52      0.64      6440\n"}
+,{"stream_name":"stdout","time":4151.24208105,"data":"          11       0.79      0.43      0.56     13742\n"}
+,{"stream_name":"stdout","time":4151.242087391,"data":"\n"}
+,{"stream_name":"stdout","time":4151.242091803,"data":"   micro avg       0.80      0.64      0.71    392633\n"}
+,{"stream_name":"stdout","time":4151.242096485,"data":"   macro avg       0.71      0.41      0.49    392633\n"}
+,{"stream_name":"stdout","time":4151.242102671,"data":"weighted avg       0.77      0.64      0.68    392633\n"}
+,{"stream_name":"stdout","time":4151.242107441,"data":" samples avg       0.76      0.63      0.66    392633\n"}
+,{"stream_name":"stdout","time":4151.242112556,"data":"\n"}
+,{"stream_name":"stderr","time":4151.243185113,"data":"/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in samples with no predicted labels. Use `zero_division` parameter to control this behavior.\n"}
+,{"stream_name":"stderr","time":4151.243231019,"data":"  _warn_prf(average, modifier, msg_start, len(result))\n"}
+,{"stream_name":"stderr","time":4151.243237942,"data":"/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in samples with no true labels. Use `zero_division` parameter to control this behavior.\n"}
+,{"stream_name":"stderr","time":4151.243244102,"data":"  _warn_prf(average, modifier, msg_start, len(result))\n"}
+,{"stream_name":"stdout","time":4552.277701224,"data":"              precision    recall  f1-score   support\n"}
+,{"stream_name":"stdout","time":4552.277739717,"data":"\n"}
+,{"stream_name":"stdout","time":4552.277746449,"data":"           0       0.77      0.34      0.48     15091\n"}
+,{"stream_name":"stdout","time":4552.277751943,"data":"           1       0.66      0.69      0.67     61188\n"}
+,{"stream_name":"stdout","time":4552.27775717,"data":"           2       0.81      0.35      0.49     10201\n"}
+,{"stream_name":"stdout","time":4552.277762741,"data":"           3       0.81      0.05      0.10     19318\n"}
+,{"stream_name":"stdout","time":4552.277767675,"data":"           4       0.67      0.80      0.73     71863\n"}
+,{"stream_name":"stdout","time":4552.277772585,"data":"           5       0.66      0.22      0.33     37696\n"}
+,{"stream_name":"stdout","time":4552.277791357,"data":"           6       0.67      0.02      0.03      7171\n"}
+,{"stream_name":"stdout","time":4552.277795467,"data":"           7       0.93      0.96      0.95    129465\n"}
+,{"stream_name":"stdout","time":4552.27779939,"data":"           8       0.70      0.19      0.29     19576\n"}
+,{"stream_name":"stdout","time":4552.277803241,"data":"           9       1.00      0.00      0.00       882\n"}
+,{"stream_name":"stdout","time":4552.277806853,"data":"          10       0.90      0.45      0.60      6440\n"}
+,{"stream_name":"stdout","time":4552.277810756,"data":"          11       0.82      0.38      0.52     13742\n"}
+,{"stream_name":"stdout","time":4552.277814391,"data":"\n"}
+,{"stream_name":"stdout","time":4552.277818785,"data":"   micro avg       0.78      0.65      0.71    392633\n"}
+,{"stream_name":"stdout","time":4552.277822431,"data":"   macro avg       0.78      0.37      0.43    392633\n"}
+,{"stream_name":"stdout","time":4552.277826082,"data":"weighted avg       0.78      0.65      0.66    392633\n"}
+,{"stream_name":"stdout","time":4552.277829914,"data":" samples avg       0.75      0.64      0.66    392633\n"}
+,{"stream_name":"stdout","time":4552.277833878,"data":"\n"}
+,{"stream_name":"stderr","time":4552.279165576,"data":"/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in samples with no predicted labels. Use `zero_division` parameter to control this behavior.\n"}
+,{"stream_name":"stderr","time":4552.279218966,"data":"  _warn_prf(average, modifier, msg_start, len(result))\n"}
+,{"stream_name":"stderr","time":4552.27922443,"data":"/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in samples with no true labels. Use `zero_division` parameter to control this behavior.\n"}
+,{"stream_name":"stderr","time":4552.27922911,"data":"  _warn_prf(average, modifier, msg_start, len(result))\n"}
+,{"stream_name":"stderr","time":4557.320628524,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":4557.320684798,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":4557.366438466,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":4557.810552044,"data":"[NbConvertApp] Writing 9800 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":4559.513724549,"data":"/usr/local/lib/python3.10/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":4559.513785203,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":4559.545234611,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":4560.591009005,"data":"[NbConvertApp] Writing 287225 bytes to __results__.html\n"}
+]
